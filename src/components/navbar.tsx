@@ -10,6 +10,7 @@ import Icons from "./ui/icons";
 import { Separator } from "./ui/separator";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "./ui/tooltip";
 import AnimationContainer from "./utils/animation-container";
+import { useEffect, useState } from 'react';
 
 const DATA = {
     navbar: LINKS,
@@ -45,6 +46,16 @@ const DATA = {
 };
 
 const Header = () => {
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
+    if (!isMounted) {
+        return null; // Or a loading spinner
+    }
+
     return (
         <header className="z-[999] flex justify-center items-center w-full fixed bottom-6 inset-x-0 cursor-none">
 

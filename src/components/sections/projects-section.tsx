@@ -7,7 +7,7 @@ const ProjectSection = () => {
     return (
         <Wrapper>
             <div className="flex flex-col items-start w-full mt-0 lg:mt-8">
-                <Heading title="Projects" />
+                <Heading title="My Projects" />
 
                 <AnimationContainer className="w-full flex flex-col gap-5 mb-8">
                     <p className="text-base text-justify lg:leading-8 text-foreground/80">

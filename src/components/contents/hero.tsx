@@ -4,16 +4,23 @@ import { motion, useInView } from "framer-motion";
 import { ChevronRightIcon, PlusIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Icons from '../ui/icons';
 import { NumberTicker } from "../ui/number-ticker";
 import { AnimationContainer } from "../utils/animation-container";
 
 const Hero = () => {
-
     const ref = useRef(null);
-    
     const isInView = useInView(ref, { once: true });
+    const [isMounted, setIsMounted] = useState(false);
+
+    useEffect(() => {
+        setIsMounted(true);
+    }, []);
+
+    if (!isMounted) {
+        return null; // Or a loading spinner
+    }
 
     return (
         <div className="w-full relative pt-20 lg:pt-28 z-40" ref={ref}>

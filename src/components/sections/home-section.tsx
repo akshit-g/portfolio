@@ -4,9 +4,10 @@ import Hero from "../contents/hero";
 import AboutMe from "../contents/about-me";
 import Projects from "../contents/projects";
 import Experience from "../contents/experience";
+import Education from "../contents/education";
 import MySkills from "../contents/my-skills";
 import Contact from "../contents/contact";
-import Reviews from "../contents/reviews";
+// import Reviews from "../contents/reviews";
 
 const HomeSection = () => {
     return (
@@ -21,13 +22,13 @@ const HomeSection = () => {
                 <Experience />
             </Wrapper>
             <Wrapper>
+                <Education />
+            </Wrapper>
+            <Wrapper>
                 <Projects />
             </Wrapper>
             <Wrapper>
                 <MySkills />
-            </Wrapper>
-            <Wrapper>
-                <Reviews />
             </Wrapper>
             <Wrapper>
                 <Contact />
