@@ -185,23 +185,17 @@ import { featuredProjects } from '@/data/featured-projects';
 import { Project, BlogProps } from '@/types';
 
 export const getProjects = async (): Promise<any[]> => {
-  // Return all local projects data for the projects page
   return projects.map(project => ({ node: project }));
 };
 
 export const getFeaturedProjects = async (): Promise<any[]> => {
-  // Return featured projects for the homepage
   return featuredProjects.map(project => ({ node: project }));
 };
 
 export const getBlogs = async (): Promise<any[]> => {
-  // Return the local blogs data
   return blogs.map(blog => ({ node: blog }));
 };
 
 export const getReviewsData = async (): Promise<any[]> => {
-    // Return local reviews
     return reviews.map(review => ({ node: review }));
 };
-
-// The getBlogDetails function is no longer needed as we link to Hashnode.

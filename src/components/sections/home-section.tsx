@@ -7,7 +7,6 @@ import Experience from "../contents/experience";
 import Education from "../contents/education";
 import MySkills from "../contents/my-skills";
 import Contact from "../contents/contact";
-// import Reviews from "../contents/reviews";
 
 const HomeSection = () => {
     return (

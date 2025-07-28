@@ -10,7 +10,7 @@ const Head = () => {
     const meta = {
         title: `Akshit Gandotra ${pathname === "/" ? "" : "• " + title.replace(/[-/]/g, " ")}`,
         description: "I'm an ML engineer and a cybersecurity analyst. I love to build things and find out what makes everything work. I love to learn new things and I'm always looking for new challenges.",
-        keywords: "Akshit Gandotra, AI Developer, Software Engineer, Full Stack Developer",
+        keywords: "Akshit Gandotra, AI Developer, Software Engineer, Cybersecurity Analyst, ML Engineer",
         type: "website",
     };
 

@@ -36,11 +36,6 @@ const DATA = {
                 url: "/me.pdf",
                 icon: FileTextIcon,
             },
-            coffe: {
-                name: "Buy me a coffee",
-                url: "https://www.buymeacoffee.com/akshit-g",
-                icon: Icons.coffeeInvert,
-            },
         },
     },
 };

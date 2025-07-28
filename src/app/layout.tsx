@@ -24,7 +24,7 @@ export default function RootLayout({
                 <Head />
                 <link
                     rel="preload"
-                    href="/images/me.png"
+                    href="/images/akshit.png"
                     as="image"
                 />
             </head>
