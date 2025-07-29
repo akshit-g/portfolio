@@ -9,7 +9,7 @@ const GradientBackground = ({ children }: { children: React.ReactNode }) => {
                 <AnimatedGrid
                     numSquares={15}
                     maxOpacity={0.1}
-                    duration={6}
+                    duration={2}
                     className="inset-x-0 h-3/4 z-10"
                 />
 

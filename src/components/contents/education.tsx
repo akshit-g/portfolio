@@ -1,51 +1,63 @@
 import { TimeLine, TimeLineItem } from "../utils/edu-timeline";
 
-const Education = () => {
+const Experience = () => {
     return (
         <div className="w-full relative pt-10 pb-20">
             <TimeLine>
                 <TimeLineItem active>
-                    <TimeLineItem.Title>
-                        <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-                            UPES
-                        </span>
-                        {" "}|{" "}
-                        <span className="text-neutral-200">
-                            (Jan 2025 - Jul 2025)
-                        </span>
-                    </TimeLineItem.Title>
+                    <div>
+                        <TimeLineItem.Title>
+                            <span className="font-medium">
+                                UPES
+                            </span>
+                        </TimeLineItem.Title>
+                        <div className="text-sm text-muted-foreground">
+                            Jan 2025 - Jul 2025
+                        </div>
+                    </div>
                     <TimeLineItem.Description>
-                        Gained foundational expertise in enterprise systems and compliance through extensive training in Power BI, Cybersecurity, IAM, and SAP ERP. Collaborated on drafting national data and AI security policies, performed LLM red-teaming, and co-developed an internal tool to visualize and summarize audit reports.
+                        <ul className="list-disc pl-4 space-y-2">
+                            <li>Gained foundational expertise in enterprise systems and compliance through extensive training in Power BI, Cybersecurity, IAM, and SAP ERP.</li>
+                            <li>Collaborated on drafting national data and AI security policies, performed LLM red-teaming, and co-developed an internal tool to visualize and summarize audit reports.</li>
+                        </ul>
                     </TimeLineItem.Description>
                 </TimeLineItem>
 
                 <TimeLineItem>
-                    <TimeLineItem.Title>
-                        <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-                            MVN
-                        </span>
-                        {" "}|{" "}
-                        <span className="text-neutral-200">
-                            (Jun 2024 - Aug 2024)
-                        </span>
-                    </TimeLineItem.Title>
+                    <div>
+                        <TimeLineItem.Title>
+                            <span className="font-medium">
+                                MVN
+                            </span>
+                        </TimeLineItem.Title>
+                        <div className="text-sm text-muted-foreground">
+                            Jun 2024 - Aug 2024
+                        </div>
+                    </div>
                     <TimeLineItem.Description>
-                        Developed a high-performance File Transfer Platform that doubled data transfer speeds and enhanced geospatial projects, cutting processing overhead by 45%. Created a custom CNN model for Object Detection and Classification, achieving 92% accuracy and an 80% reduction in processing time.
+                        <ul className="list-disc pl-4 space-y-2">
+                            <li>Developed a high-performance File Transfer Platform that doubled data transfer speeds and enhanced geospatial projects, cutting processing overhead by 45%.</li>
+                            <li>Created a custom CNN model for Object Detection and Classification, achieving 92% accuracy and an 80% reduction in processing time.</li>
+                        </ul>
                     </TimeLineItem.Description>
                 </TimeLineItem>
 
                 <TimeLineItem last>
-                    <TimeLineItem.Title>
-                        <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-                            Apeejay
-                        </span>
-                        {" "}|{" "}
-                        <span className="text-neutral-200">
-                            (Apr 2024 - May 2024)
-                        </span>
-                    </TimeLineItem.Title>
+                    <div>
+                        <TimeLineItem.Title>
+                            <span className="font-medium">
+                               Apeejay
+                            </span>
+                        </TimeLineItem.Title>
+                        <div className="text-sm text-muted-foreground">
+                            Apr 2024 - May 2024
+                        </div>
+                    </div>
                     <TimeLineItem.Description>
-                        Leveraged data analysis to identify trends and predict employee churn with 84% accuracy, improving HR decision-making. Enhanced data quality through cleansing and created visualizations, which increased business optimization accuracy by 35%.
+                       <ul className="list-disc pl-4 space-y-2">
+                            <li>Leveraged data analysis to identify trends and predict employee churn with 84% accuracy, improving HR decision-making.</li>
+                            <li>Enhanced data quality through cleansing and created visualizations, which increased business optimization accuracy by 35%.</li>
+                        </ul>
                     </TimeLineItem.Description>
                 </TimeLineItem>
             </TimeLine>
@@ -53,4 +65,4 @@ const Education = () => {
     );
 };
 
-export default Education;
+export default Experience;

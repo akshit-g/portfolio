@@ -50,13 +50,13 @@ export const TimeLineItem = ({ active, children, last }: TimelineItemProps) => {
     )
 };
 
-const TimeLineItemTitle = ({ children }: { children: React.ReactNode }) => <p className="text-white text-medium">
+const TimeLineItemTitle = ({ children }: { children: React.ReactNode }) => <div className="text-foreground text-medium">
     {children}
-</p>;
+</div>;
 
-const TimeLineItemDescription = ({ children }: { children: React.ReactNode }) => <p className="text-base text-neutral-200">
+const TimeLineItemDescription = ({ children }: { children: React.ReactNode }) => <div className="text-base text-foreground">
     {children}
-</p>;
+</div>;
 
 TimeLineItem.Title = TimeLineItemTitle;
 TimeLineItem.Description = TimeLineItemDescription;
