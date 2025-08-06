@@ -129,18 +129,18 @@ const Card = ({ project }: { project: ProjectProps }) => {
                                     <Button variant="outline" size="sm">
                                         <Icons.github className="w-5 h-5" />
                                         <span className="ml-2">
-                                            Github
+                                            GitHub Link
                                         </span>
                                     </Button>
                                 </Link>
-                                <Link href={project.view} target="_blank">
+                                {/* <Link href={project.view} target="_blank">
                                     <Button variant="outline" size="sm">
                                         <ExternalLinkIcon className="w-5 h-5" />
                                         <span className="ml-2">
                                             View
                                         </span>
                                     </Button>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </div>

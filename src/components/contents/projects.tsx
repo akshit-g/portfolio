@@ -79,7 +79,7 @@ const Projects = () => {
             >
                 <Link href="/projects">
                     <Button variant="secondary" size="sm">
-                        View more
+                        View More
                         <ArrowRightIcon className="size-4 ml-1.5" />
                     </Button>
                 </Link>

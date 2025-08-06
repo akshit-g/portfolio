@@ -44,12 +44,12 @@ const Project = ({ project }: Props) => {
                             GitHub
                         </Button>
                     </Link>
-                    <Link href={project.view} target="_blank">
+                    {/* <Link href={project.view} target="_blank">
                         <Button variant="outline" size="sm">
                             <ExternalLinkIcon className="size-4 mr-2" />
                             View
                         </Button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@ export const featuredProjects: Project[] = [
     image: [{ url: "/images/project-one.png" }],
   },
   {
-    title: "PDF Insight with DistilBERT",
+    title: "PDF Insight with DistilBERT (QA Chatbot)",
     description: "Extractive question answering from any PDF file using the DistilBERT model, achieving an 87% accuracy rate.",
     github: "https://github.com/akshit-g/pdf-insight",
     view: "https://pdf-insight-demo.com",
@@ -26,7 +26,7 @@ export const featuredProjects: Project[] = [
     image: [{ url: "/images/project-three.png" }],
   },
   {
-    title: "Sensitive Information Blur App",
+    title: "Sensitive Information Blur App (OPEN Community)",
     description: "Guided a team of 6 developers to build an ML web-app to analyze and blur sensitive information in documents.",
     github: "https://github.com/akshit-g/info-blur-app",
     view: "https://info-blur-app-demo.com",
