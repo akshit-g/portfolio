@@ -118,7 +118,7 @@ const Hero = () => {
                 className="relative mt-6 flex flex-col items-center justify-center gap-y-6 max-w-3xl mx-auto text-center"
             >
                 <p className="text-base text-muted-foreground !leading-relaxed">
-                    A dedicated Computer Science student specializing in AI and Machine Learning[cite: 8], I thrive on leveraging technology to build practical, data-driven solutions. <span className="inline-blocklg:inline-block">My experience ranges from contributing to AI security policies to engineering predictive engines.</span>
+                    A dedicated Computer Science student specializing in AI and Machine Learning, I thrive on leveraging technology to build practical, data-driven solutions. <span className="inline-blocklg:inline-block">My experience ranges from contributing to AI security policies to engineering predictive engines.</span>
                 </p>
             
             </AnimationContainer>
